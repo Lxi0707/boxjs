@@ -1,19 +1,8 @@
 {
-  "nodes": [
-    {
-      "server": "example.com",
-      "port": 1080,
-      "type": "vmess",
-      "uuid": "your-uuid",
-      "alterId": 64,
-      "cipher": "auto"
-    }
-  ],
-  "rules": [
-    {
-      "type": "domain",
-      "value": "example.com",
-      "action": "allow"
-    }
-  ]
+    "id": "Lxi0707.app.sub",
+    "name": "Lxi0707 脚本订阅",
+    "author": "@Lxi0707",
+    "icon": "https://avatars2.githubusercontent.com/u/12446619?s=460&v=4",
+    "repo": "https://github.com/Lxi0707/scripts",
+    "apps": []
 }
