@@ -4,5 +4,21 @@
     "author": "@Lxi0707",
     "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/refs/heads/main/icon/author.jpeg",
     "repo": "https://github.com/Lxi0707/scripts",
-    "apps": []
+    "apps": [
+    {
+        "id": "example_app",
+        "name": "Example App",
+        "script": "https://example.com/script.js",
+        "settings": [
+            {
+                "id": "setting_id",
+                "name": "Setting Name",
+                "val": "default_value",
+                "type": "string",
+                "desc": "Setting description"
+            }
+        ]
+    }
+]
+
 }
