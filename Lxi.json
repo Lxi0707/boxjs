@@ -2,12 +2,6 @@
     "id": "Lxi0707.app.sub",
     "name": "Lxi0707 脚本订阅",
     "author": "@Lxi0707",
-    "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/refs/heads/main/icon/author.jpeg",
-    "repo": "https://github.com/Lxi0707/scripts",
-    {
-    "id": "Lxi0707.app.sub",
-    "name": "Lxi0707 脚本订阅",
-    "author": "@Lxi0707",
     "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/main/icon/author.jpeg",
     "repo": "https://github.com/Lxi0707/scripts",
     "apps": [
@@ -44,8 +38,10 @@
             ],
             "author": "@Lxi0707",
             "repo": "https://github.com/Lxi0707/scripts",
-            "script": "https://raw.githubusercontent.com/Lxi0707/scripts/master/nodeloc/nodeloc_ck.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/nodeloc.png"]
+            "script": "https://raw.githubusercontent.com/Lxi0707/Scripts/refs/heads/main/Task/nodeloc_ck.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Lxi0707/boxjs/refs/heads/main/icon/NodeLoc.jpeg"
+            ]
         }
     ]
 }
