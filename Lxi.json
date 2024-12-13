@@ -17,14 +17,14 @@
                 {
                     "id": "nodeloc_ck_url",
                     "name": "NodeLoc 获取 ck 的请求 URL",
-                    "val": "https://www.nodeloc.com/api/checkin/history",
+                    "val": "https://www.nodeloc.com/api/websocket/auth",
                     "type": "string",
                     "desc": "设置 NodeLoc API 请求获取 ck 的 URL"
                 },
                 {
                     "id": "nodeloc_ck_headers",
                     "name": "NodeLoc 请求头信息",
-                    "val": "{\"Sec-Fetch-Dest\":\"empty\",\"Connection\":\"keep-alive\",\"Accept-Encoding\":\"gzip, deflate, br\",\"X-CSRF-Token\":\"C75exMFv1MX55GQNMkFDAmyuu4SUTpTcE4I5WSNm\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"Sec-Fetch-Mode\":\"cors\",\"Cookie\":\"flarum_lscache_vary=C75exMFv1MX55GQNMkFDAmyuu4SUTpTcE4I5WSNm; flarum_session=iAOH5bax1mhNmvhZhiWKdqXNTdVMAt81mNcBGi4k; _clck=1p7n8q4%7C2%7Cfr2%7C0%7C1751; flarum_remember=1nvskbVvzHbaTlKHo3vTnL6RwwZS6MvsEsaypDXh\",\"Referer\":\"https://www.nodeloc.com/u/Lxi/checkin/history\",\"Host\":\"www.nodeloc.com\",\"Accept-Language\":\"zh-CN,zh-Hans;q=0.9\",\"Accept\":\"*/*\"}",
+                    "val": "{\"Content-Type\":\"application/x-www-form-urlencoded\",\"Origin\":\"https://www.nodeloc.com\",\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"Referer\":\"https://www.nodeloc.com/\",\"Cookie\":\"flarum_lscache_vary=C75exMFv1MX55GQNMkFDAmyuu4SUTpTcE4I5WSNm; flarum_session=iAOH5bax1mhNmvhZhiWKdqXNTdVMAt81mNcBGi4k; _clck=1p7n8q4%7C2%7Cfr2%7C0%7C1751; flarum_remember=1nvskbVvzHbaTlKHo3vTnL6RwwZS6MvsEsaypDXh\",\"Accept-Encoding\":\"gzip, deflate, br\",\"Accept-Language\":\"zh-CN,zh-Hans;q=0.9\",\"Accept\":\"*/*\",\"Connection\":\"keep-alive\"}",
                     "type": "string",
                     "desc": "设置 NodeLoc API 请求的 headers 信息"
                 },
