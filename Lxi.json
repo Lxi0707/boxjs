@@ -4,21 +4,48 @@
     "author": "@Lxi0707",
     "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/refs/heads/main/icon/author.jpeg",
     "repo": "https://github.com/Lxi0707/scripts",
-    "apps": [
     {
-        "id": "example_app",
-        "name": "Example App",
-        "script": "https://example.com/script.js",
-        "settings": [
-            {
-                "id": "setting_id",
-                "name": "Setting Name",
-                "val": "default_value",
-                "type": "string",
-                "desc": "Setting description"
-            }
-        ]
-    }
-]
-
+    "id": "Lxi0707.app.sub",
+    "name": "Lxi0707 脚本订阅",
+    "author": "@Lxi0707",
+    "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/main/icon/author.jpeg",
+    "repo": "https://github.com/Lxi0707/scripts",
+    "apps": [
+        {
+            "id": "nodeloc_ck",
+            "name": "NodeLoc 获取 ck",
+            "keys": [
+                "nodeloc_ck_url",
+                "nodeloc_ck_headers",
+                "nodeloc_ck_cookie"
+            ],
+            "settings": [
+                {
+                    "id": "nodeloc_ck_url",
+                    "name": "NodeLoc 获取 ck 的请求 URL",
+                    "val": "https://www.nodeloc.com/api/get_ck",
+                    "type": "string",
+                    "desc": "设置 NodeLoc API 请求获取 ck 的 URL"
+                },
+                {
+                    "id": "nodeloc_ck_headers",
+                    "name": "NodeLoc 请求头信息",
+                    "val": "{}",
+                    "type": "string",
+                    "desc": "设置 NodeLoc API 请求的 headers 信息"
+                },
+                {
+                    "id": "nodeloc_ck_cookie",
+                    "name": "获取的 ck",
+                    "val": "",
+                    "type": "string",
+                    "desc": "保存获取到的 ck 信息"
+                }
+            ],
+            "author": "@Lxi0707",
+            "repo": "https://github.com/Lxi0707/scripts",
+            "script": "https://raw.githubusercontent.com/Lxi0707/scripts/master/nodeloc/nodeloc_ck.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/nodeloc.png"]
+        }
+    ]
 }
