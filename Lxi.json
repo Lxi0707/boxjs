@@ -5,27 +5,27 @@
     "icon": "https://raw.githubusercontent.com/Lxi0707/boxjs/main/icon/author.jpeg",
     "repo": "https://github.com/Lxi0707/scripts",
     "apps": [
-        {
-            "id": "nodeloc_ck",
-            "name": "NodeLoc 获取 ck",
-            "keys": [
-                "nodeloc_ck_cookie"
-            ],
-            "settings": [
-                {
-                    "id": "nodeloc_ck_cookie",
-                    "name": "获取的 ck",
-                    "val": "",
-                    "type": "textarea",
-                    "desc": "保存获取到的 ck 信息并显示在 BoxJS 中"
-                }
-            ],
-            "author": "@Lxi0707",
-            "repo": "https://github.com/Lxi0707/scripts",
-            "script": "https://raw.githubusercontent.com/Lxi0707/Scripts/refs/heads/main/Task/nodeloc_ck.js",
-            "icons": [
-                "https://raw.githubusercontent.com/Liaoyang985/Tu/main/Ly/quantumultX/Nl.png"
-            ]
-        }
-    ]
+    {
+        "id": "nodeloc_ck",
+        "name": "NodeLoc CK 管理",
+        "keys": [
+            "nodeloc_ck_cookie"
+        ],
+        "settings": [
+            {
+                "id": "nodeloc_ck_cookie",
+                "name": "获取的 CK",
+                "val": "ck1@ck2",
+                "type": "textarea",
+                "desc": "保存获取到的 CK 信息并显示在 BoxJS 中，支持多个账号，用 @ 分隔"
+            }
+        ],
+        "author": "@Lxi0707",
+        "repo": "https://github.com/Lxi0707/scripts",
+        "script": "https://raw.githubusercontent.com/Lxi0707/Scripts/refs/heads/main/Task/nodeloc_ck.js",
+        "icons": [
+            "https://raw.githubusercontent.com/Liaoyang985/Tu/main/Ly/quantumultX/Nl.png"
+        ]
+    }
+]
 }
