@@ -39,10 +39,13 @@
                     "name": "Ziwi Authorization Token",
                     "val": "",
                     "type": "text",
-                    "desc": "请输入你的授权数据（Authorization Token），用于执行签到请求"
+                    "desc": "（Authorization Token），用于执行签到请求"
                 }
             ],
             "script": "https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/ziwi+.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Liaoyang985/Tu/refs/heads/main/Ly/quantumultX/Ziwi.png"
+            ],
             "method": "POST",
             "url": "https://ziwi.gzcrm.cn/json-rpc?__method=DoCheckin",
             "headers": {
